@@ -1,0 +1,59 @@
+:root { 
+    --Wht: white;
+    --Purp: rgb(207, 207, 246);
+    --DkPurp: rgb(36, 17, 55);
+}
+
+* { 
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+        background-color: white;
+
+}
+
+header {
+    padding: 10px;
+    background-color: var(--DkPurp);
+    
+    
+}
+
+h1 {
+    color: var(--Purp);
+    font-family: cursive;
+    display: inline-block;
+
+}
+nav {
+    margin-right: 25px;
+    font-size: 25px;
+    display: inline-block;
+    float: inline-end;
+}
+
+ul {
+    
+
+}
+
+ul, li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: var(--Purp);
+    text-decoration: none;
+
+}
+
+.banner {
+    height: 120px;
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
